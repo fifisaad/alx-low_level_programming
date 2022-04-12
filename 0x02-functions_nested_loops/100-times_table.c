@@ -12,6 +12,7 @@ void times_table(void)
 	int num, mult, prod;
 
 	if (n >= 0 && n <= 15)
+
 	{
 		for (num = 0; num <= n; num++)
 		{
@@ -23,6 +24,7 @@ void times_table(void)
 				_putchar(' ');
 
 				prod = num * mult;
+		
 				if (prod <= 99)
 					_putchar(' ');
 				if (prod <= 9)
