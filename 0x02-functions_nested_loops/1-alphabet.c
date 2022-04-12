@@ -5,7 +5,6 @@
  *
  * Return: nothing, return void
  */
-
 void print_alphabet(void)
 {
 	char alphabet;
