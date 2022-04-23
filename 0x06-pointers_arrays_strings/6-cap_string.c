@@ -10,6 +10,7 @@
 char *cap_string(char *s)
 {
 	int i = 1, j, check;
+
 	char a[] = {',', ';', '.', '!', '?', '"', '(', ')', '{', '}', '\n', '\t', ' '};
 
 	if (s[0] > 96 && s[0] < 123)
@@ -28,7 +29,6 @@ char *cap_string(char *s)
 					check = 1;
 				}
 				j++;
-
 			}
 			if (check == 1)
 			{
